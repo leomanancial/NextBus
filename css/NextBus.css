@@ -1,3 +1,5 @@
+/*Next Bus todos direitos reservados*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,21 +11,23 @@
 
 .title-menu{
 	font-size: 80px;
-	background: gray;
+	background:	#4e5156;
 	color: aliceblue;
 }
 
 .linha-menu{
 	font-size: 40px;
-	color: black;
+	color:#4e5156;
 	padding: 100px 0 0 0;
 	
 }
 
 .search-line{
-	padding: 10px 2px 0 0;
+	padding: 10px 10px;
+	padding-left: 10px;
 	border-bottom: 2px solid black;
 	border-width: 30%;
+
 }
 
 .result{
