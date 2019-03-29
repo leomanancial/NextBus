@@ -6,6 +6,7 @@
     <title>Nextbus3</title>
 
     <link rel="stylesheet" type="text/css" href="css/NextBus.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"></script>
     <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
     <script type="text/javascript" src="js/firebase.js"></script>   
@@ -15,13 +16,16 @@
 </head>
 
 <body>
-	<h1>NextBus</h1>
-		<ul class="div" id='arrayLinha'>
+    <div class="title-menu">NextBus</div>
+    <div>
+		<ul class="linha-menu" id='arrayLinha'>
 			<li><a id ="JdCaçula" href='#' style="text-decoration:none " >JD.CAÇULA</a></li>
-			<li><a id ="hosprib" href='#' style="text-decoration:none ">HOSP RIBEIRÃO</a></li>
-		</ul>
-		<div class="div">	
-			<h2 id="mostrar"></h2>
-		</div>
+        </ul>
+    </div>
+    <div class="search-line"></div>
+    
+    <div class="result">	
+		<div id="mostrar"></div>
+	</div>
 </body>
 </html>
